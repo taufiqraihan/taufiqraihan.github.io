@@ -23,7 +23,7 @@ p {
 }
 
 #navbar {
-  background: #333;
+  background: grey;
   color: #fff;
   overflow:auto;
 }
@@ -57,9 +57,42 @@ p {
   color: #f7c08a;
 }
 
-#footer {
+#navbar a {
+  color: orange;
+}
+
+#showcase {
+  background: url('image/showcase.jpg') no-repeat center center/cover;
+}
+
+#showcase .showcase-content {
+  font-weight: bold;
+  color: black;
   text-align: center;
-  background: #444;
-  color: #fff;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-contet p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+}
+
+#footer {
+  font-weight: bold;
+  text-align: center;
+  background: grey;
+  color: orange;
   padding: 20px;
 }
